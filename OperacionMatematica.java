@@ -1,4 +1,5 @@
 public class OperacionMatematica {
+    
     private double valor1;
     private double valor2;
     private String operacion;

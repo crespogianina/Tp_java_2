@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class OperacionesFraccion {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingrese numerador y denominador de la primera fracción:");
-        Fraccion f1 = new Fraccion(scanner.nextInt(), scanner.nextInt());
+        Fraccion f1 = new Fraccion(sc.nextInt(), sc.nextInt());
 
         System.out.println("Ingrese numerador y denominador de la segunda fracción:");
-        Fraccion f2 = new Fraccion(scanner.nextInt(), scanner.nextInt());
+        Fraccion f2 = new Fraccion(sc.nextInt(), sc.nextInt());
 
         Fraccion resultado;
 
